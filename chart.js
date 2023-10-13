@@ -26,11 +26,61 @@ var points = [
         'https://static-00.iconduck.com/assets.00/user-icon-2048x2048-ihoxz4vq.png'
       ) 
     } 
+  },
+  { 
+    x: 'Business Team', 
+    id: 'Business', 
+    parent: 'president', 
+    attributes: { 
+      role: '', 
+      photo: '',
+      email: '',
+    } 
+  }, 
+  { 
+    x: 'Technical Team', 
+    id: 'Technical', 
+    parent: 'president', 
+    attributes: { 
+      role: '', 
+      photo: '',
+      email: ''
+    } 
+  }, 
+  { 
+    x: 'Services Team', 
+    id: 'Services', 
+    parent: 'president', 
+    attributes: { 
+      role: '', 
+      photo: '',
+      email: ''
+    } 
+  }, 
+  { 
+    x: 'Supply Chain', 
+    id: 'Supply', 
+    parent: 'president', 
+    attributes: { 
+      role: '', 
+      photo: '',
+      email: ''
+    } 
+  }, 
+  { 
+    x: 'OSG', 
+    id: 'OSG', 
+    parent: 'president', 
+    attributes: { 
+      role: '', 
+      photo: '',
+      email: ''
+    } 
   }, 
   { 
     x: 'David', 
     id: 'Lead1', 
-    parent: 'president', 
+    parent: 'Business', 
     attributes: { 
       role: 'Business Lead', 
       photo: getImgText( 
@@ -41,7 +91,7 @@ var points = [
   { 
     x: 'Gethin', 
     id: 'Lead2', 
-    parent: 'president', 
+    parent: 'Technical', 
     attributes: { 
       role: 'Tech Lead', 
       photo: getImgText( 
@@ -52,7 +102,7 @@ var points = [
   { 
     x: 'Sonnie Kim', 
     id: 'Lead3', 
-    parent: 'president', 
+    parent: 'Services', 
     attributes: { 
       role: 'Service Lead', 
       photo: getImgText( 
@@ -63,7 +113,7 @@ var points = [
   { 
     x: 'William', 
     id: 'Lead4', 
-    parent: 'president', 
+    parent: 'Supply', 
     attributes: { 
       role: 'Supply Chain Lead', 
       photo: getImgText( 
@@ -74,7 +124,7 @@ var points = [
   { 
     x: 'Chris', 
     id: 'Lead5', 
-    parent: 'president', 
+    parent: 'OSG', 
     attributes: { 
       role: 'OSG Lead', 
       photo: getImgText( 
