@@ -46,6 +46,10 @@ button {
     left: 125px;
 }
 
+button:focus-visible{
+    outline: none;
+}
+
 button:hover {
     color: grey;
     cursor: pointer;
